@@ -1,0 +1,10 @@
+.title-logo {
+    color: var(--primary);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-logo:hover {
+    color: var(--primary-bg);
+    transition: .3s;
+}

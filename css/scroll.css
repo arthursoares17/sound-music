@@ -1,0 +1,17 @@
+/* { desktop } */
+.reveal-txt, .reveal-img,
+.reveal-title,
+.reveal-itens1, .reveal-itens2,
+.reveal-img2, .reveal-grid,
+.reveal-title2, .reveal-card1 {
+    visibility: hidden;
+}
+
+/* { mobile } */
+.reveal-txt, .reveal-img,
+.reveal-title,
+.reveal-itens1, .reveal-itens2,
+.reveal-img2, .reveal-grid,
+.reveal-title2, .reveal-card1 {
+    visibility: visible;
+}
