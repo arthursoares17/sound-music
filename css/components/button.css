@@ -13,7 +13,7 @@
 .btn-signup:hover {
     background-color: var(--primary);
     border: 1px solid var(--primary);
-    transform: scale(1.03);
+    transform: scale(1.04);
     transition: .3s;
 }
 
@@ -28,9 +28,23 @@
 .btn-signup.-second:hover {
     background-color: var(--primary-bg);
     border: none;
+    transform: scale(0.9);
 }
 
 .btn-signup.-third {
+    background-color: transparent;
+    border: 1px solid var(--light);
+    border-radius: 15px;
+    padding: 20px;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.btn-signup.-third:hover {
+    transform: scale(0.9);
+}
+
+.btn-signup.-fourth {
     font-size: 16px;
     background-color: var(--primary);
     border-radius: 20px;
@@ -39,7 +53,7 @@
     width: 100%;
 }
 
-.btn-signup.-third:hover {
+.btn-signup.-fourth:hover {
     background-color: var(--primary-bg);
     transform: scale(1.04);
 }
