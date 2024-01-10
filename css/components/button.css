@@ -10,12 +10,24 @@
     padding: 10px 20px;
 }
 
+.btn-signup:hover {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    transform: scale(1.03);
+    transition: .3s;
+}
+
 .btn-signup.-second {
     background-color: var(--primary);
     border: none;
     border-radius: 15px;
     padding: 20px;
     width: 160px;
+}
+
+.btn-signup.-second:hover {
+    background-color: var(--primary-bg);
+    border: none;
 }
 
 .btn-signup.-third {
@@ -25,18 +37,6 @@
     padding: 8px 32px;
     height: 48px;
     width: 100%;
-}
-
-.btn-signup:hover {
-    background-color: var(--primary);
-    border: 1px solid var(--primary);
-    transform: scale(1.03);
-    transition: .3s;
-}
-
-.btn-signup.-second:hover {
-    background-color: var(--primary-bg);
-    border: none;
 }
 
 .btn-signup.-third:hover {
