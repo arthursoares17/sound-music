@@ -132,13 +132,11 @@ header > .interface {
 /* [/menu-mobile] */
 
 /* --- <main> --- */
-
 main {
     margin-top: 55px;
 }
 
 /* {first-section} */
-
 .first-section {
     padding: 0px 4%;
 }
@@ -176,7 +174,6 @@ main {
 }
 
 /* {second-section} */
-
 .second-section {
     background-color: var(--background2);
     padding: 0px 4%;
@@ -223,7 +220,6 @@ main {
 }
 
 /* {third-section} */
-
 .third-section {
     padding: 0px 4%;
 }
@@ -275,7 +271,6 @@ main {
 }
 
 /* {fourth-section} */
-
 .fourth-section {
     background-color: var(--background2);
     padding: 95px 4% 120px 4%;
@@ -321,7 +316,6 @@ main {
 }
 
 /* ~ group1 ~ */
-
 .group1 {
     height: 150px;
 }
@@ -359,7 +353,6 @@ main {
 }
 
 /* ~ group2 ~ */
-
 .group2 {
     height: 369px;
     padding-top: 20px;
@@ -384,7 +377,6 @@ main {
 }
 
 /* ~ group4 ~ */
-
 .group4 p {
     color: var(--secondary);
     font-size: 12px;
@@ -397,7 +389,6 @@ main {
 }
 
 /* --- <footer> --- */
-
 footer {
     background-color: var(--background3);
     padding: 0px 4%;
